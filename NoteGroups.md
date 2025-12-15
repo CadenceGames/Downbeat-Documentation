@@ -5,7 +5,7 @@ Downbeat has the ability to set the position, scale and rotation of any note in 
 Note groups are collections of notes that have a common name. That name is then used to calculate the position, rotation and scale of every note inside it.
 Since the name is the same for every note in the group, this system allows you to specify how *one* note in the group should transform and it will be applied in the same way to every other note in the group, making effects that require multiple notes much easier.
 
-Please refer to [A quick note about parameters](Index.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
+Please refer to [A quick note about parameters](README.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
 
 ## Note Group
 You can create Note groups in two ways: by selecting a time range where all notes inside are included in the group or by adding each note individually.

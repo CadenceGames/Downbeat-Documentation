@@ -2,7 +2,7 @@
 ## Overview
 The goal of this file is to explain the concept of paths and how they are used by Downbeat for various parts of gameplay.
 These paths are written in a file that follows the syntax described in [PathFormat.md](PathFormat.md).
-It is *not* required to know the syntax in advance in order to follow this guide, but it is recommended to read [A quick note about parameters ](index.md#a-quick-note-about-parameters) before continuing on with this file.
+It is *not* required to know the syntax in advance in order to follow this guide, but it is recommended to read [A quick note about parameters ](README.md#a-quick-note-about-parameters) before continuing on with this file.
 
 ## Introduction and Foundation concepts
 ### Turtle Graphics

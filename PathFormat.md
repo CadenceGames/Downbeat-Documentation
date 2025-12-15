@@ -5,7 +5,7 @@ The goal of this markdown file is to describe what a Path file is
 Downbeat uses a special file type to determine values that can be used for all sorts of things, such as note positions, camera's field of view or how fast should the notes reach the player.
 This file is just a regular text file encoded in UTF-8.
 
-Please refer to [A quick note about parameters](Index.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
+Please refer to [A quick note about parameters](README.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
 
 ## File Syntax
 The file itself is just a list of one or more objects, each one of type ChronoPath and that are written with their specific [syntax](#chronopath).

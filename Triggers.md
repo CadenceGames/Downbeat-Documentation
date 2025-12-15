@@ -8,7 +8,7 @@ Triggers have a name associated with them and are divided into two parts:
 
 **You cannot use "automatic" as a trigger name**, this is because it's a reserved name used internally in the game. Every other string is valid.
 
-Please refer to [A quick note about parameters](Index.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
+Please refer to [A quick note about parameters](README.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
 
 ## Trigger events
 Trigger events are simple text events with a special syntax that can only be placed on the chart file as a local event:
