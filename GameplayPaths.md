@@ -3,7 +3,7 @@ All these ChronoPaths follow the format described in [PathFormat.md](PathFormat.
 
 See [NoteGroups.md](NoteGroups.md) and [Images.md](Images.md) for additional ChronoPaths that are not listed here
 
-These ChronoPaths should only be placed in `<InstDiff>.path`.
+These ChronoPaths should only be placed in `<DiffInst>.path`.
 
 |Property | Dimention |  Description|
 |:---: | :---: |  :---|

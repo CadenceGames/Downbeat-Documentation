@@ -27,7 +27,7 @@ You can include notes that are not consecutive to the same group, by using the a
 
 ## Note ChronoPaths
 These ChronoPath names follow the format described in [PathFormat.md](PathFormat.md)
-Downbeat loads note paths only for the instrument and difficulty that the player has selected. To do this, it will attempt to load the file called `<InstDiff>.path`.
+Downbeat loads note paths only for the instrument and difficulty that the player has selected. To do this, it will attempt to load the file called `<DiffInst>.path`.
 
 
 |Property | Dimention | Description|

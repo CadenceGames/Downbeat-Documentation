@@ -3,7 +3,7 @@
 Downbeat has support for loading images at runtime that will be placed in the same space as the player highway.
 The loading of images is based on two files, which have to be placed inside the folder of the song:
 - `imagesDictionary.ini` : Also called "Dictionary File", this file lists what images should be created and assigns them unique identifier strings.
-- `<InstDiff>Images.path` : This file contains all ChronoPaths used to manipulate the images once they are created. It follows the same format described in [PathFormat.md](PathFormat.md)
+- `<DiffInst>Images.path` : This file contains all ChronoPaths used to manipulate the images once they are created. It follows the same format described in [PathFormat.md](PathFormat.md)
 
 In order to explain how this mechanism works, let's define two concepts:
 - `Image Source` : This is a standard image file (jpeg,png) which contains the actual pixel data. 
@@ -11,7 +11,7 @@ In order to explain how this mechanism works, let's define two concepts:
 
 ## Image Dictionary File
 This is a standard [ini file](https://en.wikipedia.org/wiki/INI_file#Format) that is used to list all images that should be loaded.
-In this file every ini section contains a valid `<InstDiff>` combination that the player might choose.
+In this file every ini section contains a valid `<DiffInst>` combination that the player might choose.
 Below this header follows a list of `key=path` pairs.
 Each pair will create an Image Object with id `key` that references an Image Source located at `path`.
 `path` contains a relative path based on the folder that contains `imagesDictionary.ini` (so the folder of the song itself).
@@ -27,7 +27,7 @@ In this example, when the player chooses Expert Guitar three image objects will 
 The first two reference the same image source, `path/to/image.png`, while the third image object references another completely different image source.
 
 ## Image ChronoPaths
-All of these paths must be placed in `<InstDiff>Images.path`
+All of these paths must be placed in `<DiffInst>Images.path`
 
 |Property | Dimentions | Description|
 |:---: | :---: | :---|
