@@ -1,5 +1,6 @@
 # Downbeat Documentation Index
 Welcome to the Index page for all the documentation available for Downbeat.
+This guide is updated as of 2026-01-15
 
 ## Main Pages
 - [HowPathsWork.md](HowPathsWorks.md): Explains the concept of paths and explains how they're used
