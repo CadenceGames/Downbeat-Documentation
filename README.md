@@ -10,6 +10,7 @@ This guide is updated as of 2026-01-15
 - [Triggers.md](Triggers.md) : Explains what triggers are and how they are interpreted by Downbeat
 - [GameplayPaths.md](GameplayPaths.md) : Lists all paths that are related to general gameplay and are not specific to notes or images
 - [EditorShortcuts.md](EditorShortcuts.md) : Lists all default shortcuts for the Modchart editor
+- [AssetBundles.md](AssetBundles.md): Explains how to create and load Assetbundles when playing a song
 
 ## A quick note about parameters
 In order to explain how things work, these documentaion pages might contain some kind of syntax dictating what, where and how to write specific lines.
