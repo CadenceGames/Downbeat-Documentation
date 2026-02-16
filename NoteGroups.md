@@ -1,8 +1,10 @@
 # Note Groups and Paths
 ## Overview
-Downbeat has the ability to set the position, scale and rotation of any note in the chart. The system used to do that does **not** directly set the values for each note, but uses a layer of abstraction using `Note Groups`.
+Downbeat has the ability to set the position, scale and rotation of any note in the chart.
+The system used to do that does **not** directly set the values for each note, but uses a layer of abstraction using `Note Groups`.
 
-Note groups are collections of notes that have a common name. That name is then used to calculate the position, rotation and scale of every note inside it.
+Note groups are collections of notes that have a common name.
+That name is then used to calculate the position, rotation and scale of every note inside it.
 Since the name is the same for every note in the group, this system allows you to specify how *one* note in the group should transform and it will be applied in the same way to every other note in the group, making effects that require multiple notes much easier.
 
 Please refer to [A quick note about parameters](README.md#a-quick-note-about-parameters) regarding how the syntax is described in this file.
@@ -10,7 +12,10 @@ Please refer to [A quick note about parameters](README.md#a-quick-note-about-par
 ## Note Group
 You can create Note groups in two ways: by selecting a time range where all notes inside are included in the group or by adding each note individually.
 
-If a note is not assigned manually to a group, it will be assigned automatically to the "*automatic*" group. **For this reason "automatic" should _not_ be used as a group name**
+If a note is not assigned manually to a group, it will be assigned automatically to the "*automatic*" group.
+**For this reason "automatic" can but _should never_ be used as a group name**.
+Meanwhile `Strikers` is a reserved word and **cannot** be used as a group name, at all (`Strikers.Lane#` is interpreted as a path used for controlling strikers, not for controlling notes).
+
 
 In order to create a note group you must add text events with a special syntax to the chart itself (in all three cases, `name` is a required argument):
 | Event | Example | Description | 

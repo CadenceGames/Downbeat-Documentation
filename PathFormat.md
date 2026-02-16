@@ -23,12 +23,12 @@ These paths are set up like keyframes on a timeline, where at specific time valu
 
 ### Main syntax
 ```
-[<Tag>]+
+[<Tag>]
 <Identifier>
 <Data Block>
 ```
 Each section must be placed on a separate line from the others.
-The Tag section is the only one that is not required *and* can have multiple lines.
+The Tag section is the only one that is *not required*.
 These sections must be placed in this specified order
 
 ### Tags Syntax
