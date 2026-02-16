@@ -1,6 +1,6 @@
 # Downbeat Documentation Index
 Welcome to the Index page for all the documentation available for Downbeat.
-This guide is updated as of 2026-01-15
+This guide is updated as of 2026-02-16
 
 ## Main Pages
 - [HowPathsWork.md](HowPathsWorks.md): Explains the concept of paths and explains how they're used
@@ -20,4 +20,5 @@ In all linked pages, the syntax will be described like this:
   - if the argument is `<DiffInst>`, that argument must follow the same naming scheme used for [sections in .chart files](https://github.com/TheNathannator/GuitarGame_ChartFormats/tree/main/doc/FileFormats/.chart)
 - `[<bar>]` represent an optional argument, called `bar`, that can be replaced with a valid argument without including `[ ]`
 - If an argument is followed by `+`, that means that argument can be repeated multiple times.
+
 
